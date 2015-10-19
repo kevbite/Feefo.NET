@@ -110,7 +110,7 @@ namespace Feefo.Tests
                 {
                     Count = 1,
                     CustomerComment = "Service rating : Really good service<br/>Product : Good camera for the price.",
-                    Date = new DateTime(2015, 09, 10),
+                    Date = "56 minutes ago",
                     Description = "Konica Minolta Z20",
                     FacebookShareLink =
                         "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FGB%2Fen%2Freviews%2FExample-Supplier-Ltd%2F%3Fid%3D13%26servicefeedbackid%3D7445488",
@@ -132,7 +132,7 @@ namespace Feefo.Tests
                     Count = 2,
                     CustomerComment =
                         "Service rating : This is a test service reviewwwwwwww0000000000000000000001<br/>Product : This is a test product reviewwwwwwww0000000000000000000001",
-                    Date = new DateTime(2015, 09, 08),
+                    Date = "56 minutes ago",
                     Description = "this is a test",
                     FacebookShareLink =
                         "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FGB%2Fen%2Freviews%2FExample-Supplier-Ltd%2F%3Fid%3D13%26servicefeedbackid%3D7445479",
@@ -174,7 +174,7 @@ namespace Feefo.Tests
                     Count = 3,
                     CustomerComment =
                         "Service rating : I had an excellent experience<br/>Product : Great! It's the best thing ever,",
-                    Date = new DateTime(2015, 07, 08),
+                    Date = "56 minutes ago",
                     Description = "Falcon Mach V",
                     FacebookShareLink =
                         "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FGB%2Fen%2Freviews%2FExample-Supplier-Ltd%2F%3Fid%3D13%26servicefeedbackid%3D7445404",
@@ -219,7 +219,7 @@ namespace Feefo.Tests
                 {
                     Count = 4,
                     CustomerComment = "As Above",
-                    Date = new DateTime(2015,04, 17),
+                    Date = "56 minutes ago",
                     Description = "Test",
                     FacebookShareLink =
                         "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FGB%2Fen%2Freviews%2FExample-Supplier-Ltd%2F%3Fid%3D13%26servicefeedbackid%3D7445167",

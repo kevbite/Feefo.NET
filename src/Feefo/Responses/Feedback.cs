@@ -26,7 +26,7 @@ namespace Feefo.Responses
         /// The date that this feedback was left.
         /// </summary>
         [JsonProperty(PropertyName = "DATE")]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         /// <summary>
         /// The description of the item the customer is leaving feedback on.
@@ -75,7 +75,7 @@ namespace Feefo.Responses
         /// </summary>
         [JsonProperty(PropertyName = "PRODUCTRATING")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public Rating ProductRating { get; set; }
+        public Rating? ProductRating { get; set; }
 
         /// <summary>
         /// The URL to this feedback item on Feefo, for use in a ‘Read More’ link.
